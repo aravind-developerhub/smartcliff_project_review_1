@@ -157,8 +157,7 @@ The frontend communicates with the backend via a **middleware gateway microservi
 
 ## 🗂️ Project Structure
 
-```
-frontend/
+```frontend/
 ├── src/
 │   ├── app/
 │   │   ├── models/                  # Domain models (Customer, Order, Product, etc.)
