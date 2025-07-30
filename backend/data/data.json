@@ -1,0 +1,2186 @@
+{
+  "users": [
+    {
+      "_id": "user1",
+      "role": "customer",
+      "session": {
+        "sessionId": "session-1",
+        "customerId": "user1",
+        "startTime": 1752484334298
+      },
+      "customerData": {
+        "customerId": "user1",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@example.com",
+        "phone": "+919876543210",
+        "gender": "male",
+        "defaultAddressId": "addr-1"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-1",
+          "productId": "prod-1",
+          "selectedQuantity": 2,
+          "selectedSize": "500g"
+        }
+      ],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-1",
+          "productId": "prod-3",
+          "selectedSize": "1kg"
+        }
+      ],
+      "orders": [
+        "order-1"
+      ]
+    },
+    {
+      "_id": "user2",
+      "role": "customer",
+      "session": {
+        "sessionId": "session-2",
+        "customerId": "user2",
+        "startTime": 1752484334298
+      },
+      "customerData": {
+        "customerId": "user2",
+        "name": "Priya Patel",
+        "email": "priya.patel@example.com",
+        "phone": "+919876543211",
+        "gender": "female",
+        "defaultAddressId": "addr-2"
+      },
+      "cartItems": [],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-2",
+          "productId": "prod-2"
+        }
+      ],
+      "orders": [
+        "order-2"
+      ]
+    },
+    {
+      "_id": "user3",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user3",
+        "name": "Amit Singh",
+        "email": "amit.singh@example.com",
+        "phone": "+919876543212",
+        "defaultAddressId": "addr-3"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-3",
+          "productId": "prod-4",
+          "selectedQuantity": 1,
+          "selectedSize": "250g"
+        }
+      ],
+      "wishlistItems": [],
+      "orders": [
+        "order-3"
+      ]
+    },
+    {
+      "_id": "user4",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user4",
+        "name": "Neha Gupta",
+        "email": "neha.gupta@example.com",
+        "phone": "+919876543213",
+        "gender": "female",
+        "defaultAddressId": "addr-4"
+      },
+      "cartItems": [],
+      "wishlistItems": [],
+      "orders": [
+        "order-4",
+        "order-5"
+      ]
+    },
+    {
+      "_id": "admin",
+      "role": "admin",
+      "session": {
+        "sessionId": "session-admin",
+        "customerId": "admin",
+        "startTime": 1752484334298
+      },
+      "customerData": {
+        "customerId": "admin",
+        "name": "Admin User",
+        "email": "admin@nilgiris.com",
+        "phone": "+919999999999"
+      },
+      "cartItems": [],
+      "wishlistItems": [],
+      "orders": []
+    },
+    {
+      "_id": "user5",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user5",
+        "name": "Vikram Joshi",
+        "email": "vikram.joshi@example.com",
+        "phone": "+919876543214",
+        "gender": "male",
+        "defaultAddressId": "addr-5"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-5",
+          "productId": "prod-5",
+          "selectedQuantity": 3
+        }
+      ],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-5",
+          "productId": "prod-1"
+        },
+        {
+          "wishlistItemId": "wish-6",
+          "productId": "prod-6"
+        }
+      ],
+      "orders": [
+        "order-6"
+      ]
+    },
+    {
+      "_id": "user6",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user6",
+        "name": "Ananya Reddy",
+        "email": "ananya.reddy@example.com",
+        "phone": "+919876543215",
+        "gender": "female",
+        "defaultAddressId": "addr-6"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-6",
+          "productId": "prod-7",
+          "selectedQuantity": 1,
+          "selectedSize": "1kg"
+        }
+      ],
+      "wishlistItems": [],
+      "orders": []
+    },
+    {
+      "_id": "user7",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user7",
+        "name": "Arun Kumar",
+        "email": "arun.kumar@example.com",
+        "phone": "+919876543216",
+        "defaultAddressId": "addr-7"
+      },
+      "cartItems": [],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-7",
+          "productId": "prod-8"
+        }
+      ],
+      "orders": [
+        "order-7"
+      ]
+    },
+    {
+      "_id": "user8",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user8",
+        "name": "Divya Iyer",
+        "email": "divya.iyer@example.com",
+        "phone": "+919876543217",
+        "gender": "female",
+        "defaultAddressId": "addr-8"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-8",
+          "productId": "prod-9",
+          "selectedQuantity": 2
+        }
+      ],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-8",
+          "productId": "prod-10"
+        }
+      ],
+      "orders": [
+        "order-8"
+      ]
+    },
+    {
+      "_id": "user9",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user9",
+        "name": "Sanjay Verma",
+        "email": "sanjay.verma@example.com",
+        "phone": "+919876543218",
+        "gender": "male",
+        "defaultAddressId": "addr-9"
+      },
+      "cartItems": [],
+      "wishlistItems": [],
+      "orders": [
+        "order-9",
+        "order-10"
+      ]
+    },
+    {
+      "_id": "user10",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user10",
+        "name": "Meera Nair",
+        "email": "meera.nair@example.com",
+        "phone": "+919876543219",
+        "gender": "female",
+        "defaultAddressId": "addr-10"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-10",
+          "productId": "prod-11",
+          "selectedQuantity": 2
+        }
+      ],
+      "wishlistItems": [],
+      "orders": [
+        "order-11"
+      ]
+    },
+    {
+      "_id": "user11",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user11",
+        "name": "Rajesh Khanna",
+        "email": "rajesh.khanna@example.com",
+        "phone": "+919876543220",
+        "gender": "male",
+        "defaultAddressId": "addr-11"
+      },
+      "cartItems": [],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-11",
+          "productId": "prod-12"
+        }
+      ],
+      "orders": [
+        "order-12"
+      ]
+    },
+    {
+      "_id": "user12",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user12",
+        "name": "Pooja Desai",
+        "email": "pooja.desai@example.com",
+        "phone": "+919876543221",
+        "gender": "female",
+        "defaultAddressId": "addr-12"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-12",
+          "productId": "prod-13",
+          "selectedQuantity": 1
+        }
+      ],
+      "wishlistItems": [],
+      "orders": []
+    },
+    {
+      "_id": "user13",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user13",
+        "name": "Manoj Tiwari",
+        "email": "manoj.tiwari@example.com",
+        "phone": "+919876543222",
+        "defaultAddressId": "addr-13"
+      },
+      "cartItems": [],
+      "wishlistItems": [
+        {
+          "wishlistItemId": "wish-13",
+          "productId": "prod-14"
+        }
+      ],
+      "orders": [
+        "order-13"
+      ]
+    },
+    {
+      "_id": "user14",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user14",
+        "name": "Swati Choudhary",
+        "email": "swati.choudhary@example.com",
+        "phone": "+919876543223",
+        "gender": "female",
+        "defaultAddressId": "addr-14"
+      },
+      "cartItems": [
+        {
+          "cartItemId": "cart-14",
+          "productId": "prod-15",
+          "selectedQuantity": 3
+        }
+      ],
+      "wishlistItems": [],
+      "orders": []
+    },
+    {
+      "_id": "user15",
+      "role": "customer",
+      "customerData": {
+        "customerId": "user15",
+        "name": "Vivek Malhotra",
+        "email": "vivek.malhotra@example.com",
+        "phone": "+919876543224",
+        "gender": "male",
+        "defaultAddressId": "addr-15"
+      },
+      "cartItems": [],
+      "wishlistItems": [],
+      "orders": []
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod-1",
+      "brandId": "brand-1",
+      "productName": "Premium Coffee",
+      "productImage": "https://marveltea.com/cdn/shop/files/PremiumTea1kgFront2024.png?v=1728562220",
+      "categoryName": "Tea",
+      "description": "High quality premium tea leaves from Assam",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-1-1",
+          "size": "100g",
+          "price": "120",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 10
+        },
+        {
+          "packageSizeId": "size-1-2",
+          "size": "500g",
+          "price": "550",
+          "availableQuantity": 50,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        },
+        {
+          "packageSizeId": "size-1-3",
+          "size": "1kg",
+          "price": "1000",
+          "availableQuantity": 20,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 3
+        }
+      ],
+      "barcode": "730300023831",
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "_id": "prod-2",
+      "brandId": "brand-1",
+      "productName": "Coffee Beans",
+      "productImage": "https://daromas.in/cdn/shop/files/D_aromas_Cafe_Blend_Silver_Roasted_Coffee_Beans.jpg?v=1732616010",
+      "categoryName": "Coffee",
+      "description": "Arabica coffee beans from Chikmagalur",
+      "barcode": "123456789012",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-2-250g",
+          "size": "250g",
+          "price": "350",
+          "availableQuantity": 75,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-2-1kg",
+          "size": "1kg",
+          "price": "1200",
+          "availableQuantity": 30,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.8
+    },
+    {
+      "_id": "prod-3",
+      "brandId": "brand-1",
+      "productName": "Garam Masala",
+      "productImage": "https://melam.com/wp-content/uploads/2022/11/Garam-Masala-100g-PB-SKU-Amazon-06-09-17-02.jpg",
+      "categoryName": "Spices",
+      "description": "Traditional Indian spice mix",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-3-50g",
+          "size": "50g",
+          "price": "80",
+          "availableQuantity": 200,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 10
+        },
+        {
+          "packageSizeId": "size-3-200g",
+          "size": "200g",
+          "price": "280",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        },
+        {
+          "packageSizeId": "size-3-1kg",
+          "size": "1kg",
+          "price": "1200",
+          "availableQuantity": 40,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 3
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.7
+    },
+    {
+      "_id": "prod-4",
+      "brandId": "brand-1",
+      "productName": "Pure Honey",
+      "productImage": "https://disanofoods.com/cdn/shop/files/1_8fe53571-3496-4556-9bc6-e04d0f6ef839.jpg?v=1718271796&width=1946",
+      "categoryName": "Sweeteners",
+      "description": "Pure natural honey from Himalayan region",
+      "barcode": "987654321098",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-4-250g",
+          "size": "250g",
+          "price": "220",
+          "availableQuantity": 120,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 6
+        },
+        {
+          "packageSizeId": "size-4-500g",
+          "size": "500g",
+          "price": "400",
+          "availableQuantity": 80,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.6
+    },
+    {
+      "_id": "prod-5",
+      "brandId": "brand-1",
+      "productName": "Butter Biscuits",
+      "productImage": "https://bakemate.in/wp-content/uploads/2024/08/butter-cookies-1-2.webp",
+      "categoryName": "Snacks",
+      "description": "Crispy butter biscuits",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-5-100g",
+          "size": "100g",
+          "price": "50",
+          "availableQuantity": 300,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 15
+        },
+        {
+          "packageSizeId": "size-5-500g",
+          "size": "500g",
+          "price": "220",
+          "availableQuantity": 150,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.4
+    },
+    {
+      "_id": "prod-6",
+      "brandId": "brand-1",
+      "productName": "Mango Pickle",
+      "productImage": "https://www.srisritattva.com/cdn/shop/products/mango-mustard-pickle-front_42c0b906-3b81-4c35-933b-f85b3676df2b.jpg?v=1617269313",
+      "categoryName": "Condiments",
+      "description": "Spicy mango pickle",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-6-200g",
+          "size": "200g",
+          "price": "120",
+          "availableQuantity": 180,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 9
+        },
+        {
+          "packageSizeId": "size-6-500g",
+          "size": "500g",
+          "price": "280",
+          "availableQuantity": 90,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.3
+    },
+    {
+      "_id": "prod-7",
+      "brandId": "brand-2",
+      "productName": "Whole Wheat Flour",
+      "productImage": "https://5.imimg.com/data5/SELLER/Default/2021/7/EQ/AA/AY/6428050/5-kg-wheat-flour-500x500.jpeg",
+      "categoryName": "Grains",
+      "description": "Premium whole wheat flour",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-7-1kg",
+          "size": "1kg",
+          "price": "80",
+          "availableQuantity": 200,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 10
+        },
+        {
+          "packageSizeId": "size-7-5kg",
+          "size": "5kg",
+          "price": "350",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.2
+    },
+    {
+      "_id": "prod-8",
+      "brandId": "brand-2",
+      "productName": "Basmati Rice",
+      "productImage": "https://www.bbassets.com/media/uploads/p/l/214216-2_8-daawat-basmati-rice-traditional.jpg",
+      "categoryName": "Grains",
+      "description": "Premium long grain basmati rice",
+      "barcode": "112233445566",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-8-1kg",
+          "size": "1kg",
+          "price": "150",
+          "availableQuantity": 150,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-8-5kg",
+          "size": "5kg",
+          "price": "700",
+          "availableQuantity": 75,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 3
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.7
+    },
+    {
+      "_id": "prod-9",
+      "brandId": "brand-2",
+      "productName": "Milk Chocolate",
+      "productImage": "https://images-cdn.ubuy.co.in/67348b1aafaefc603b6c2e2b-cadbury-dairy-milk-milk-chocolate-candy.jpg",
+      "categoryName": "Confectionery",
+      "description": "Rich milk chocolate bar",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-9-50g",
+          "size": "50g",
+          "price": "60",
+          "availableQuantity": 250,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 12
+        },
+        {
+          "packageSizeId": "size-9-200g",
+          "size": "200g",
+          "price": "220",
+          "availableQuantity": 125,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 6
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.9
+    },
+    {
+      "_id": "prod-10",
+      "brandId": "brand-2",
+      "productName": "Instant Noodles",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxVU7iKYRveHuwh9s-6zEdJYmWWJOcO7t_Q&s",
+      "categoryName": "Instant Food",
+      "description": "Masala flavored instant noodles",
+      "barcode": "998877665544",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-10-70g",
+          "size": "70g",
+          "price": "30",
+          "availableQuantity": 400,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 20
+        },
+        {
+          "packageSizeId": "size-10-200g",
+          "size": "200g",
+          "price": "80",
+          "availableQuantity": 200,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 10
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.1
+    },
+    {
+      "_id": "prod-11",
+      "brandId": "brand-2",
+      "productName": "Turmeric Powder",
+      "productImage": "https://www.bbassets.com/media/uploads/p/l/40270424-3_3-eastern-turmeric-powder-fresh-aroma-flavour-locked.jpg",
+      "categoryName": "Spices",
+      "description": "Pure turmeric powder",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-11-100g",
+          "size": "100g",
+          "price": "50",
+          "availableQuantity": 180,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 9
+        },
+        {
+          "packageSizeId": "size-11-500g",
+          "size": "500g",
+          "price": "220",
+          "availableQuantity": 90,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "_id": "prod-12",
+      "brandId": "brand-2",
+      "productName": "Green Tea",
+      "productImage": "https://marveltea.com/cdn/shop/files/Lemon_Green_Tea_Bagt_940x-min_1e8ad299-685c-4133-ab92-44f68033296d.webp?v=1724847740",
+      "categoryName": "Tea",
+      "description": "Antioxidant rich green tea",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-12-100g",
+          "size": "100g",
+          "price": "150",
+          "availableQuantity": 120,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 6
+        },
+        {
+          "packageSizeId": "size-12-250g",
+          "size": "250g",
+          "price": "350",
+          "availableQuantity": 80,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.3
+    },
+    {
+      "_id": "prod-13",
+      "brandId": "brand-2",
+      "productName": "Cashew Nuts",
+      "productImage": "https://nuttygritties.com/cdn/shop/files/Artboard6_66b49457-1032-4406-b6fe-f39d8d90ee04.jpg?v=1687942372",
+      "categoryName": "Dry Fruits",
+      "description": "Premium quality cashew nuts",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-13-250g",
+          "size": "250g",
+          "price": "400",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        },
+        {
+          "packageSizeId": "size-13-500g",
+          "size": "500g",
+          "price": "750",
+          "availableQuantity": 60,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 3
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.7
+    },
+    {
+      "_id": "prod-14",
+      "brandId": "brand-2",
+      "productName": "Almonds",
+      "productImage": "https://eatanytime.in/cdn/shop/products/3.SmokedAlmondLifestyleMock.jpg?v=1699521487&width=1946",
+      "categoryName": "Dry Fruits",
+      "description": "California almonds",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-14-250g",
+          "size": "250g",
+          "price": "450",
+          "availableQuantity": 110,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        },
+        {
+          "packageSizeId": "size-14-500g",
+          "size": "500g",
+          "price": "850",
+          "availableQuantity": 70,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.8
+    },
+    {
+      "_id": "prod-15",
+      "brandId": "brand-3",
+      "productName": "Ghee",
+      "productImage": "https://himalayannatives.com/storage/ProductGroup_67f4fca0ab376-4.webp",
+      "categoryName": "Dairy",
+      "description": "Pure cow ghee",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-15-500ml",
+          "size": "500ml",
+          "price": "350",
+          "availableQuantity": 150,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        },
+        {
+          "packageSizeId": "size-15-1L",
+          "size": "1L",
+          "price": "650",
+          "availableQuantity": 90,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 3
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.9
+    },
+    {
+      "_id": "prod-16",
+      "brandId": "brand-3",
+      "productName": "Poha",
+      "productImage": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690278984poha500g1.png",
+      "categoryName": "Breakfast",
+      "description": "Thin beaten rice flakes",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-16-500g",
+          "size": "500g",
+          "price": "60",
+          "availableQuantity": 200,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-16-1kg",
+          "size": "1kg",
+          "price": "110",
+          "availableQuantity": 120,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.2
+    },
+    {
+      "_id": "prod-17",
+      "brandId": "brand-3",
+      "productName": "Sugar",
+      "productImage": "https://www.patanjaliayurved.net/assets/product_images/400x500/1710905354brownsugar1kg1.png",
+      "categoryName": "Sweeteners",
+      "description": "Pure cane sugar",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-17-1kg",
+          "size": "1kg",
+          "price": "50",
+          "availableQuantity": 300,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 10
+        },
+        {
+          "packageSizeId": "size-17-5kg",
+          "size": "5kg",
+          "price": "230",
+          "availableQuantity": 150,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4
+    },
+    {
+      "_id": "prod-18",
+      "brandId": "brand-3",
+      "productName": "Toor Dal",
+      "productImage": "https://www.tatanutrikorner.com/cdn/shop/files/Tata-Sampann-Toor-Arhar-Dal--500g-_FOP_-with-Sanjeev-kapoor_f1f98892-6dbf-40be-822b-a922be48b2b9.png?v=1748858329&width=1946",
+      "categoryName": "Pulses",
+      "description": "Premium quality toor dal",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-18-500g",
+          "size": "500g",
+          "price": "90",
+          "availableQuantity": 180,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-18-1kg",
+          "size": "1kg",
+          "price": "170",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.4
+    },
+    {
+      "_id": "prod-19",
+      "brandId": "brand-3",
+      "productName": "Coriander Powder",
+      "productImage": "https://aachifoods.com/cdn/shop/files/coriander-powder-spices-893.webp?v=1747131684&width=1946",
+      "categoryName": "Spices",
+      "description": "Fresh coriander powder",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-19-100g",
+          "size": "100g",
+          "price": "40",
+          "availableQuantity": 200,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 10
+        },
+        {
+          "packageSizeId": "size-19-500g",
+          "size": "500g",
+          "price": "180",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.3
+    },
+    {
+      "_id": "prod-20",
+      "brandId": "brand-4",
+      "productName": "Black Pepper",
+      "productImage": "https://images-cdn.ubuy.co.in/67083030b776f631767241a6-mccormick-non-gmo-kosher-coarse-ground.jpg",
+      "categoryName": "Spices",
+      "description": "Premium black pepper corns",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-20-50g",
+          "size": "50g",
+          "price": "120",
+          "availableQuantity": 150,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 7
+        },
+        {
+          "packageSizeId": "size-20-200g",
+          "size": "200g",
+          "price": "450",
+          "availableQuantity": 80,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.6
+    },
+    {
+      "_id": "prod-21",
+      "brandId": "brand-4",
+      "productName": "Cumin Seeds",
+      "productImage": "https://www.naturalspices.com/img/744/744/resize/2/8/280423_a01-01_komijnzaadheel_strooibus_700x700.png",
+      "categoryName": "Spices",
+      "description": "Jeera - premium quality",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-21-100g",
+          "size": "100g",
+          "price": "60",
+          "availableQuantity": 180,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-21-500g",
+          "size": "500g",
+          "price": "280",
+          "availableQuantity": 90,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "_id": "prod-22",
+      "brandId": "brand-4",
+      "productName": "Mustard Oil",
+      "productImage": "https://chiltanpure.com/cdn/shop/products/mustard-oil-boost-hair-growth-moisturizes-skin-amp-prevents-premature-greying-716970_grande.jpg?v=1670844667",
+      "categoryName": "Oils",
+      "description": "Pure mustard oil",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-22-500ml",
+          "size": "500ml",
+          "price": "120",
+          "availableQuantity": 150,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 6
+        },
+        {
+          "packageSizeId": "size-22-1L",
+          "size": "1L",
+          "price": "220",
+          "availableQuantity": 90,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.3
+    },
+    {
+      "_id": "prod-23",
+      "brandId": "brand-5",
+      "productName": "Sambar Powder",
+      "productImage": "https://m.media-amazon.com/images/I/81bpAlCsq2L.jpg",
+      "categoryName": "Spices",
+      "description": "Traditional South Indian sambar powder",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-23-100g",
+          "size": "100g",
+          "price": "80",
+          "availableQuantity": 160,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-23-500g",
+          "size": "500g",
+          "price": "350",
+          "availableQuantity": 80,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.7
+    },
+    {
+      "_id": "prod-24",
+      "brandId": "brand-5",
+      "productName": "Coconut Oil",
+      "productImage": "https://m.media-amazon.com/images/I/71+I2IPZOqL._UF1000,1000_QL80_.jpg",
+      "categoryName": "Oils",
+      "description": "Virgin coconut oil",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-24-200ml",
+          "size": "200ml",
+          "price": "180",
+          "availableQuantity": 120,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 6
+        },
+        {
+          "packageSizeId": "size-24-500ml",
+          "size": "500ml",
+          "price": "400",
+          "availableQuantity": 80,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 4
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.6
+    },
+    {
+      "_id": "prod-25",
+      "brandId": "brand-5",
+      "productName": "Chana Dal",
+      "productImage": "https://myhealthytreat.in/cdn/shop/files/Roastedchanadalnamkeen5_7b3b97b6-6878-4644-972e-aafa2b0ec9de.jpg",
+      "categoryName": "Pulses",
+      "description": "Premium split Bengal gram",
+      "packageSizes": [
+        {
+          "packageSizeId": "size-25-500g",
+          "size": "500g",
+          "price": "80",
+          "availableQuantity": 180,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 8
+        },
+        {
+          "packageSizeId": "size-25-1kg",
+          "size": "1kg",
+          "price": "150",
+          "availableQuantity": 100,
+          "minOrderQuantity": 1,
+          "maxOrderQuantity": 5
+        }
+      ],
+      "status": {
+        "none": 1,
+        "wishlist": 0,
+        "cart": 0
+      },
+      "rating": 4.4
+    }
+  ],
+  "orders": [
+    {
+      "_id": "order-1",
+      "customerId": "user1",
+      "status": "delivered",
+      "orderDate": "2025-05-15T00:00:00.000Z",
+      "deliveryDate": "2025-05-18T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-1",
+          "productId": "prod-1",
+          "purchasedQuantity": 2,
+          "selectedSize": "500g",
+          "price": 550,
+          "name": "Premium Tea"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-1",
+        "addressId": "addr-1",
+        "carrier": "Delhivery",
+        "trackingNumber": "DL123456789",
+        "estimatedDelivery": "2025-05-18T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-1",
+        "method": "credit_card",
+        "cardLastFour": "1234",
+        "transactionId": "txn-1"
+      },
+      "totalAmount": 1100
+    },
+    {
+      "_id": "order-2",
+      "customerId": "user2",
+      "status": "shipped",
+      "orderDate": "2025-05-20T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-2",
+          "productId": "prod-2",
+          "purchasedQuantity": 1,
+          "selectedSize": "1kg",
+          "price": 1200,
+          "name": "Coffee Beans"
+        },
+        {
+          "orderItemId": "item-3",
+          "productId": "prod-3",
+          "purchasedQuantity": 1,
+          "selectedSize": "200g",
+          "price": 280,
+          "name": "Garam Masala"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-2",
+        "addressId": "addr-2",
+        "carrier": "Blue Dart",
+        "trackingNumber": "BD12345678",
+        "estimatedDelivery": "2025-05-25T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-2",
+        "method": "debit_card",
+        "cardLastFour": "5678",
+        "transactionId": "txn-2"
+      },
+      "couponCode": "SUMMER10",
+      "totalAmount": 1332
+    },
+    {
+      "_id": "order-3",
+      "customerId": "user3",
+      "status": "confirmed",
+      "orderDate": "2025-05-22T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-4",
+          "productId": "prod-4",
+          "purchasedQuantity": 1,
+          "selectedSize": "250g",
+          "price": 220,
+          "name": "Pure Honey"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-3",
+        "addressId": "addr-3"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-3",
+        "method": "upi",
+        "upiId": "amit@upi"
+      },
+      "totalAmount": 220
+    },
+    {
+      "_id": "order-4",
+      "customerId": "user4",
+      "status": "pending",
+      "orderDate": "2025-05-23T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-5",
+          "productId": "prod-5",
+          "purchasedQuantity": 3,
+          "price": 50,
+          "name": "Butter Biscuits"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-4",
+        "addressId": "addr-4"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-4",
+        "method": "netbanking",
+        "transactionId": "txn-4"
+      },
+      "totalAmount": 150
+    },
+    {
+      "_id": "order-5",
+      "customerId": "user4",
+      "status": "cancelled",
+      "orderDate": "2025-05-10T00:00:00.000Z",
+      "cancellationReason": "Changed my mind",
+      "items": [
+        {
+          "orderItemId": "item-6",
+          "productId": "prod-6",
+          "purchasedQuantity": 2,
+          "selectedSize": "200g",
+          "price": 120,
+          "name": "Mango Pickle"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-5",
+        "addressId": "addr-4"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-5",
+        "method": "credit_card",
+        "cardLastFour": "4321",
+        "transactionId": "txn-5"
+      },
+      "totalAmount": 240
+    },
+    {
+      "_id": "order-6",
+      "customerId": "user5",
+      "status": "delivered",
+      "orderDate": "2025-05-18T00:00:00.000Z",
+      "deliveryDate": "2025-05-21T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-7",
+          "productId": "prod-7",
+          "purchasedQuantity": 1,
+          "selectedSize": "1kg",
+          "price": 80,
+          "name": "Whole Wheat Flour"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-6",
+        "addressId": "addr-5",
+        "carrier": "XpressBees",
+        "trackingNumber": "XB1234567890",
+        "estimatedDelivery": "2025-05-21T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-6",
+        "method": "cod"
+      },
+      "totalAmount": 80
+    },
+    {
+      "_id": "order-7",
+      "customerId": "user7",
+      "status": "returned",
+      "orderDate": "2025-05-05T00:00:00.000Z",
+      "deliveryDate": "2025-05-08T00:00:00.000Z",
+      "returnDate": "2025-05-10T00:00:00.000Z",
+      "returnReason": "Damaged product",
+      "items": [
+        {
+          "orderItemId": "item-8",
+          "productId": "prod-8",
+          "purchasedQuantity": 1,
+          "selectedSize": "5kg",
+          "price": 700,
+          "name": "Basmati Rice"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-7",
+        "addressId": "addr-7",
+        "carrier": "Delhivery",
+        "trackingNumber": "DL987654321",
+        "estimatedDelivery": "2025-05-08T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-7",
+        "method": "debit_card",
+        "cardLastFour": "8765",
+        "transactionId": "txn-7"
+      },
+      "totalAmount": 700
+    },
+    {
+      "_id": "order-8",
+      "customerId": "user8",
+      "status": "shipped",
+      "orderDate": "2025-05-24T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-9",
+          "productId": "prod-9",
+          "purchasedQuantity": 2,
+          "price": 60,
+          "name": "Milk Chocolate"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-8",
+        "addressId": "addr-8",
+        "carrier": "Blue Dart",
+        "trackingNumber": "BD987654321",
+        "estimatedDelivery": "2025-05-28T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-8",
+        "method": "credit_card",
+        "cardLastFour": "3456",
+        "transactionId": "txn-8"
+      },
+      "couponCode": "SWEET20",
+      "totalAmount": 96
+    },
+    {
+      "_id": "order-9",
+      "customerId": "user9",
+      "status": "confirmed",
+      "orderDate": "2025-05-25T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-10",
+          "productId": "prod-10",
+          "purchasedQuantity": 5,
+          "selectedSize": "70g",
+          "price": 30,
+          "name": "Instant Noodles"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-9",
+        "addressId": "addr-9"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-9",
+        "method": "upi",
+        "upiId": "sanjay@upi"
+      },
+      "totalAmount": 150
+    },
+    {
+      "_id": "order-10",
+      "customerId": "user9",
+      "status": "pending",
+      "orderDate": "2025-05-26T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-11",
+          "productId": "prod-1",
+          "purchasedQuantity": 1,
+          "selectedSize": "1kg",
+          "price": 1000,
+          "name": "Premium Tea"
+        },
+        {
+          "orderItemId": "item-12",
+          "productId": "prod-2",
+          "purchasedQuantity": 1,
+          "selectedSize": "250g",
+          "price": 350,
+          "name": "Coffee Beans"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-10",
+        "addressId": "addr-9"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-10",
+        "method": "netbanking"
+      },
+      "totalAmount": 1350
+    },
+    {
+      "_id": "order-11",
+      "customerId": "user10",
+      "status": "delivered",
+      "orderDate": "2025-05-12T00:00:00.000Z",
+      "deliveryDate": "2025-05-15T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-13",
+          "productId": "prod-11",
+          "purchasedQuantity": 2,
+          "selectedSize": "100g",
+          "price": 50,
+          "name": "Turmeric Powder"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-11",
+        "addressId": "addr-10",
+        "carrier": "XpressBees",
+        "trackingNumber": "XB2345678901",
+        "estimatedDelivery": "2025-05-15T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-11",
+        "method": "credit_card",
+        "cardLastFour": "7890",
+        "transactionId": "txn-11"
+      },
+      "totalAmount": 100
+    },
+    {
+      "_id": "order-12",
+      "customerId": "user11",
+      "status": "shipped",
+      "orderDate": "2025-05-19T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-14",
+          "productId": "prod-12",
+          "purchasedQuantity": 1,
+          "selectedSize": "250g",
+          "price": 350,
+          "name": "Green Tea"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-12",
+        "addressId": "addr-11",
+        "carrier": "Delhivery",
+        "trackingNumber": "DL234567890",
+        "estimatedDelivery": "2025-05-23T00:00:00.000Z"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-12",
+        "method": "debit_card",
+        "cardLastFour": "2345",
+        "transactionId": "txn-12"
+      },
+      "totalAmount": 350
+    },
+    {
+      "_id": "order-13",
+      "customerId": "user13",
+      "status": "confirmed",
+      "orderDate": "2025-05-21T00:00:00.000Z",
+      "items": [
+        {
+          "orderItemId": "item-15",
+          "productId": "prod-14",
+          "purchasedQuantity": 1,
+          "selectedSize": "500g",
+          "price": 850,
+          "name": "Almonds"
+        }
+      ],
+      "shipping": {
+        "shippingDetailsId": "ship-13",
+        "addressId": "addr-13"
+      },
+      "payment": {
+        "paymentDetailsId": "pay-13",
+        "method": "upi",
+        "upiId": "manoj@upi"
+      },
+      "totalAmount": 850
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat-1",
+      "name": "Tea",
+      "description": "Various types of tea",
+      "imageUrl": "https://www.theteashelf.com/cdn/shop/articles/tea-glass-cup-wooden-table-tea-plantations-background_1500x.jpg?v=1679396414"
+    },
+    {
+      "_id": "cat-2",
+      "name": "Coffee",
+      "description": "Coffee beans and powder",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg"
+    },
+    {
+      "_id": "cat-3",
+      "name": "Spices",
+      "description": "Indian spices and masalas",
+      "imageUrl": "https://static.toiimg.com/photo/64699039.cms"
+    },
+    {
+      "_id": "cat-4",
+      "name": "Sweeteners",
+      "description": "Honey, sugar and other sweeteners",
+      "imageUrl": "https://domf5oio6qrcr.cloudfront.net/medialibrary/9711/iStock-1037859810.jpg"
+    },
+    {
+      "_id": "cat-5",
+      "name": "Snacks",
+      "description": "Biscuits, chips and other snacks",
+      "imageUrl": "https://eatbetterco.com/cdn/shop/files/USB_41a55100-9585-4ef4-aa96-bfdb478c965e_1800x1800.jpg?v=1740378051"
+    },
+    {
+      "_id": "cat-6",
+      "name": "Condiments",
+      "description": "Pickles, sauces and other condiments",
+      "imageUrl": "https://eatbetterco.com/cdn/shop/files/USB_41a55100-9585-4ef4-aa96-bfdb478c965e_1800x1800.jpg?v=1740378051"
+    },
+    {
+      "_id": "cat-7",
+      "name": "Grains",
+      "description": "Rice, flour and other grains",
+      "imageUrl": "https://www.cuddlesfoundation.org/wp-content/uploads/2024/12/unnamed-4.jpg"
+    },
+    {
+      "_id": "cat-8",
+      "name": "Confectionery",
+      "description": "Chocolates and sweets",
+      "imageUrl": "https://www.adm.com/globalassets/products--services/human-nutrition/categories/confectionery/adobestock_106815012.jpeg"
+    },
+    {
+      "_id": "cat-9",
+      "name": "Instant Food",
+      "description": "Noodles and ready-to-eat food",
+      "imageUrl": "https://cdn.thewirecutter.com/wp-content/media/2024/12/TT-INSTANT-NOODLES-2048px-5957-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp"
+    },
+    {
+      "_id": "cat-10",
+      "name": "Dry Fruits",
+      "description": "Nuts and dried fruits",
+      "imageUrl": "https://m.media-amazon.com/images/I/91Ldu+2aHiS._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "_id": "cat-11",
+      "name": "Dairy",
+      "description": "Ghee, milk products",
+      "imageUrl": "https://www.chanakyadairy.com/wp-content/uploads/2019/04/blog-pic.jpg"
+    },
+    {
+      "_id": "cat-12",
+      "name": "Breakfast",
+      "description": "Breakfast items like poha, upma",
+      "imageUrl": "https://s2.dmcdn.net/v/S4KI_1UNcERkz3hf4/x1080"
+    },
+    {
+      "_id": "cat-13",
+      "name": "Pulses",
+      "description": "Dals and lentils",
+      "imageUrl": "https://s2.dmcdn.net/v/S4KI_1UNcERkz3hf4/x1080"
+    },
+    {
+      "_id": "cat-14",
+      "name": "Oils",
+      "description": "Cooking oils",
+      "imageUrl": "https://uchealth-wp-uploads.s3.amazonaws.com/wp-content/uploads/sites/6/2025/02/07153535/GettyImages-2162243089-seed-oil-web.webp"
+    }
+  ],
+  "brands": [
+    {
+      "_id": "brand-1",
+      "name": "Nilgiris",
+      "logoUrl": "https://d1sl07a7h3d3fr.cloudfront.net/rodeoadmin/store/a78495a4-40fe-47f6-b002-81d5bf2cf3df-512x512.png",
+      "description": "Premium grocery brand since 1905"
+    },
+    {
+      "_id": "brand-2",
+      "name": "Tata",
+      "logoUrl": "https://seeklogo.com/images/T/tata-consumer-products-logo-91ABE5D997-seeklogo.com.png",
+      "description": "Trusted Indian brand"
+    },
+    {
+      "_id": "brand-3",
+      "name": "Everest",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEatMYSlabchwcS8I8hcHkQukGKURR6Whk2g&s",
+      "description": "Spices and masalas"
+    },
+    {
+      "_id": "brand-4",
+      "name": "Dabur",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Dabur_Logo.svg/1200px-Dabur_Logo.svg.png",
+      "description": "Ayurvedic products"
+    },
+    {
+      "_id": "brand-5",
+      "name": "Amul",
+      "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNMoCH1cfv2aG5rZETPxWFLOTr5UumY9SQTw&s",
+      "description": "Dairy products"
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "coupon-1",
+      "code": "SUMMER10",
+      "minOrderAmount": 500,
+      "validFrom": "2025-05-01T00:00:00.000Z",
+      "validTo": "2025-08-31T00:00:00.000Z",
+      "discountValue": 10
+    },
+    {
+      "_id": "coupon-2",
+      "code": "SWEET20",
+      "minOrderAmount": 300,
+      "validFrom": "2025-04-15T00:00:00.000Z",
+      "validTo": "2025-06-15T00:00:00.000Z",
+      "discountValue": 20
+    },
+    {
+      "_id": "coupon-3",
+      "code": "WELCOME15",
+      "minOrderAmount": 200,
+      "validFrom": "2025-01-01T00:00:00.000Z",
+      "validTo": "2025-12-31T00:00:00.000Z",
+      "discountValue": 15
+    },
+    {
+      "_id": "coupon-4",
+      "code": "FESTIVE25",
+      "minOrderAmount": 1000,
+      "validFrom": "2025-09-15T00:00:00.000Z",
+      "validTo": "2025-10-15T00:00:00.000Z",
+      "discountValue": 25
+    },
+    {
+      "_id": "coupon-5",
+      "code": "DAILY5",
+      "minOrderAmount": 100,
+      "validFrom": "2025-01-01T00:00:00.000Z",
+      "validTo": "2025-12-31T00:00:00.000Z",
+      "discountValue": 5
+    },
+    {
+      "_id": "coupon-6",
+      "code": "SPICE10",
+      "minOrderAmount": 300,
+      "validFrom": "2025-06-01T00:00:00.000Z",
+      "validTo": "2025-07-31T00:00:00.000Z",
+      "discountValue": 10
+    },
+    {
+      "_id": "coupon-7",
+      "code": "TEA15",
+      "minOrderAmount": 400,
+      "validFrom": "2025-05-15T00:00:00.000Z",
+      "validTo": "2025-06-15T00:00:00.000Z",
+      "discountValue": 15
+    },
+    {
+      "_id": "coupon-8",
+      "code": "FIRST50",
+      "minOrderAmount": 2000,
+      "validFrom": "2025-01-01T00:00:00.000Z",
+      "validTo": "2025-12-31T00:00:00.000Z",
+      "discountValue": 50
+    },
+    {
+      "_id": "coupon-9",
+      "code": "MILK5",
+      "minOrderAmount": 200,
+      "validFrom": "2025-04-01T00:00:00.000Z",
+      "validTo": "2025-09-30T00:00:00.000Z",
+      "discountValue": 5
+    },
+    {
+      "_id": "coupon-10",
+      "code": "DIWALI30",
+      "minOrderAmount": 1500,
+      "validFrom": "2025-10-10T00:00:00.000Z",
+      "validTo": "2025-11-15T00:00:00.000Z",
+      "discountValue": 30
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "txn-1",
+      "orderId": "order-1",
+      "customerId": "user1",
+      "amount": 1100,
+      "paymentMethod": "credit_card",
+      "status": "success",
+      "timestamp": "2024-05-15T00:00:00.000Z",
+      "paymentDetails": {
+        "authorizationCode": "AUTH123"
+      }
+    },
+    {
+      "_id": "txn-2",
+      "orderId": "order-2",
+      "customerId": "user2",
+      "amount": 1332,
+      "paymentMethod": "debit_card",
+      "status": "success",
+      "timestamp": "2024-05-20T00:00:00.000Z",
+      "paymentDetails": {
+        "authorizationCode": "AUTH456"
+      }
+    },
+    {
+      "_id": "txn-3",
+      "orderId": "order-3",
+      "customerId": "user3",
+      "amount": 220,
+      "paymentMethod": "upi",
+      "status": "success",
+      "timestamp": "2024-05-22T00:00:00.000Z",
+      "paymentDetails": {
+        "upiReference": "UPIREF123"
+      }
+    },
+    {
+      "_id": "txn-4",
+      "orderId": "order-4",
+      "customerId": "user4",
+      "amount": 150,
+      "paymentMethod": "netbanking",
+      "status": "pending",
+      "timestamp": "2024-05-23T00:00:00.000Z",
+      "paymentDetails": {
+        "bankReference": "BANKREF456"
+      }
+    },
+    {
+      "_id": "txn-5",
+      "orderId": "order-5",
+      "customerId": "user4",
+      "amount": 240,
+      "paymentMethod": "credit_card",
+      "status": "refunded",
+      "timestamp": "2024-05-10T00:00:00.000Z",
+      "paymentDetails": {
+        "refundId": "REFUND789"
+      }
+    },
+    {
+      "_id": "txn-6",
+      "orderId": "order-6",
+      "customerId": "user5",
+      "amount": 80,
+      "paymentMethod": "cod",
+      "status": "success",
+      "timestamp": "2024-05-18T00:00:00.000Z",
+      "paymentDetails": {
+        "collected": true
+      }
+    },
+    {
+      "_id": "txn-7",
+      "orderId": "order-7",
+      "customerId": "user7",
+      "amount": 700,
+      "paymentMethod": "debit_card",
+      "status": "refunded",
+      "timestamp": "2024-05-05T00:00:00.000Z",
+      "paymentDetails": {
+        "refundId": "REFUND101"
+      }
+    },
+    {
+      "_id": "txn-8",
+      "orderId": "order-8",
+      "customerId": "user8",
+      "amount": 96,
+      "paymentMethod": "credit_card",
+      "status": "success",
+      "timestamp": "2024-05-24T00:00:00.000Z",
+      "paymentDetails": {
+        "authorizationCode": "AUTH789"
+      }
+    },
+    {
+      "_id": "txn-9",
+      "orderId": "order-9",
+      "customerId": "user9",
+      "amount": 150,
+      "paymentMethod": "upi",
+      "status": "success",
+      "timestamp": "2024-05-25T00:00:00.000Z",
+      "paymentDetails": {
+        "upiReference": "UPIREF456"
+      }
+    },
+    {
+      "_id": "txn-10",
+      "orderId": "order-10",
+      "customerId": "user9",
+      "amount": 1350,
+      "paymentMethod": "netbanking",
+      "status": "pending",
+      "timestamp": "2024-05-26T00:00:00.000Z",
+      "paymentDetails": {
+        "bankReference": "BANKREF789"
+      }
+    },
+    {
+      "_id": "txn-11",
+      "orderId": "order-11",
+      "customerId": "user10",
+      "amount": 100,
+      "paymentMethod": "credit_card",
+      "status": "success",
+      "timestamp": "2024-05-12T00:00:00.000Z",
+      "paymentDetails": {
+        "authorizationCode": "AUTH101"
+      }
+    },
+    {
+      "_id": "txn-12",
+      "orderId": "order-12",
+      "customerId": "user11",
+      "amount": 350,
+      "paymentMethod": "debit_card",
+      "status": "success",
+      "timestamp": "2024-05-19T00:00:00.000Z",
+      "paymentDetails": {
+        "authorizationCode": "AUTH202"
+      }
+    },
+    {
+      "_id": "txn-13",
+      "orderId": "order-13",
+      "customerId": "user13",
+      "amount": 850,
+      "paymentMethod": "upi",
+      "status": "success",
+      "timestamp": "2024-05-21T00:00:00.000Z",
+      "paymentDetails": {
+        "upiReference": "UPIREF303"
+      }
+    }
+  ],
+  "addresses": [
+    {
+      "_id": "addr-1",
+      "customerId": "user1",
+      "type": "home",
+      "street": "123 MG Road",
+      "apt": "Apt 4B",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-2",
+      "customerId": "user2",
+      "type": "work",
+      "street": "456 Business Park",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-3",
+      "customerId": "user3",
+      "type": "home",
+      "street": "789 Oak Lane",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zip": "110001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-4",
+      "customerId": "user4",
+      "type": "home",
+      "street": "321 Pine St",
+      "apt": "Unit 12",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "zip": "500001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-5",
+      "customerId": "user5",
+      "type": "home",
+      "street": "987 Elm St",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-6",
+      "customerId": "user6",
+      "type": "other",
+      "street": "654 Birch Rd",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "411001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-7",
+      "customerId": "user7",
+      "type": "home",
+      "street": "321 Maple Ave",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zip": "700001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-8",
+      "customerId": "user8",
+      "type": "work",
+      "street": "159 Corporate Blvd",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "380001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-9",
+      "customerId": "user9",
+      "type": "home",
+      "street": "753 Cedar Ln",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zip": "302001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-10",
+      "customerId": "user10",
+      "type": "home",
+      "street": "456 Garden St",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "zip": "226001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-11",
+      "customerId": "user11",
+      "type": "home",
+      "street": "789 Park Ave",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "zip": "160001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-12",
+      "customerId": "user12",
+      "type": "work",
+      "street": "123 Tech Park",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "560102",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-13",
+      "customerId": "user13",
+      "type": "home",
+      "street": "456 Hillside",
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "zip": "171001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-14",
+      "customerId": "user14",
+      "type": "home",
+      "street": "789 Valley View",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "zip": "248001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "_id": "addr-15",
+      "customerId": "user15",
+      "type": "home",
+      "street": "123 Riverside",
+      "city": "Patna",
+      "state": "Bihar",
+      "zip": "800001",
+      "country": "India",
+      "isDefault": true
+    }
+  ],
+  "content": {
+    "_id": "1",
+    "heroBanners": [
+      {
+        "id": "banner1",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F4-1747723799078.webp&w=3840&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/dry-fruits-and-nuts",
+        "displayOrder": 1,
+        "isActive": true
+      },
+      {
+        "id": "banner2",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F0-1746593178274.webp&w=3840&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/feeds/677a6b8bf482e0df16161306?feed_position=2&from=",
+        "displayOrder": 2,
+        "isActive": true
+      },
+      {
+        "id": "banner3",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F1-1747656481857.webp&w=3840&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/home-care-and-cleaning/fabric-care",
+        "displayOrder": 3,
+        "isActive": false
+      },
+      {
+        "id": "banner4",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F-4-1733726753660.webp&w=3840&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/baby-care-and-diapers/baby-care?cl2=baby-diapers-and-wipes",
+        "displayOrder": 4,
+        "isActive": true
+      }
+    ],
+    "categoryFlashCards": [
+      {
+        "id": "flash1",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F-0-1718878221554.webp&w=1200&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/fruits-and-vegetables",
+        "displayOrder": 1,
+        "isActive": true
+      },
+      {
+        "id": "flash2",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F-1-1718878221556.webp&w=1200&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/dairy-and-ice-creams/fresh-dairy",
+        "displayOrder": 2,
+        "isActive": true
+      },
+      {
+        "id": "flash3",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F-4-1718878221562.webp&w=1200&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/meat-fish-and-eggs",
+        "displayOrder": 3,
+        "isActive": true
+      },
+      {
+        "id": "flash4",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F-2-1718878502977.webp&w=1200&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/meat-fish-and-eggs/frozen-non-veg",
+        "displayOrder": 4,
+        "isActive": true
+      },
+      {
+        "id": "flash5",
+        "imageUrl": "https://www.luluhypermarket.in/_next/image?url=https%3A%2F%2Fluluindia-prod-assets.s3.ap-south-1.amazonaws.com%2Fpims%2Fgrocery%2Ffeeds%2Fweb%2F-3-1718878221560.webp&w=1200&q=75",
+        "href": "https://www.luluhypermarket.in/grocery/category/bakery-and-breads",
+        "displayOrder": 5,
+        "isActive": false
+      }
+    ],
+    "socialMediaLinks": {
+      "facebook": "https://facebook.com/nilgiris",
+      "instagram": "https://instagram.com/nilgiris",
+      "twitter": "https://twitter.com/nilgiris",
+      "youtube": "https://youtube.com/nilgiris",
+      "whatsapp": "https://wa.me/919876543210"
+    },
+    "updatedAt": "2025-07-09T12:05:23.268Z"
+  }
+}
