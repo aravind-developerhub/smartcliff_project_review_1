@@ -1,4 +1,4 @@
-'''Domain-Based Architecture (Feature-Sliced Architecture)
+```Domain-Based Architecture (Feature-Sliced Architecture)
 nilgiris_angular_app/
 ├── src/
 │ ├── app/
@@ -88,7 +88,7 @@ nilgiris_angular_app/
 │ └── environments/
 
 commands to run
-ng serve --open'''
+ng serve --open```
 
 
 # 🛍️ Nilgiris Commerce Web App
